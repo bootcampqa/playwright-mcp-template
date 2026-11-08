@@ -1,0 +1,14 @@
+{
+  "name": "playwright-vscode-template",
+  "version": "1.0.0",
+  "description": "Plantilla básica de Playwright fijada en versión 1.65.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

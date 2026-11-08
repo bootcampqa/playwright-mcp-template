@@ -1,0 +1,24 @@
+# Dependencias de Node.js
+node_modules/
+
+# Reportes y resultados de pruebas de Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Capturas de pantalla, vídeos y trazas generadas localmente al fallar las pruebas
+test-results/
+blob-report/
+
+# Archivos de entorno y variables secretas (por si usas .env)
+.env
+.env.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs de npm
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
